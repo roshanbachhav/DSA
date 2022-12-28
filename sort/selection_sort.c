@@ -1,13 +1,5 @@
 #include<stdio.h>
 
-// void printElement(int a[10], int i,int n){
-//     printf("printing elements following \n");
-//     for ( i = 0; i < n; i++)
-//     {
-//         printf("%d \t",a[i]);
-//     }
-// }
-
 void selectionSort(int a[10],int n){
     int j,indof,i,temp;
     for ( i = 0; i < n-1; i++)
