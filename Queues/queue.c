@@ -22,7 +22,7 @@ void main()
 
         case 2:
             x = deleteq(&q);
-            if(var <= 0)
+            if(x <= 0)
             printf("Delete element is %d",x);
             break;
 
